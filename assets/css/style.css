@@ -215,3 +215,72 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/*
+  These rules take effect when the browser's width
+  is either 980px or less.
+*/
+@media screen and (max-width: 980px) {
+  /* The body's bg color will be #333 */
+  body {
+    background-color: #333;
+
+  }
+
+}
+
+
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 768px) {
+  /* The body's bg color will be #333 */
+  body {
+    background-color: #333;
+
+  }
+}
+
+
+
+/*
+  These rules take effect when the browser's width
+  is either 640px or less.
+*/
+@media screen and (max-width: 640px) {
+  /* The body's bg color will be #333 */
+
+  .container {
+    padding: 20px 20px 20px 20px;
+  }
+
+  #masthead {
+    z-index: 500;
+    width: 100%;
+    margin: 0 0px 30px 0px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+  }
+
+  a #logo {
+    float: none;
+    width: 100%;
+  }
+
+  #logo {
+    width: 100%;
+    
+  }
+
+  nav {
+    float: none;
+    width: 100%;
+    text-align: center;
+    
+  }
+
+}
