@@ -294,4 +294,13 @@ input[type=submit] {
     overflow: none;
   }
 
+  footer {
+    margin: -10px;
+    padding: 30px 0;
+    height: 60px;
+    width: 110%;
+    margin-top: 40px;
+  }
+
+
 }
