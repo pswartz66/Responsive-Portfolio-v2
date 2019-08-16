@@ -236,13 +236,59 @@ input[type=submit] {
   is either 768px or less.
 */
 @media screen and (min-width: 640px) and (max-width: 768px) {
-  /* The body's bg color will be #333 */
-  body {
-    background-color: #333;
-
+  
+  #masthead {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 768px;
+    margin: 0px;
+    overflow: none;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
   }
-}
 
+
+  nav {
+    float: right;
+    padding-right: 60px;
+    text-align: center;
+    margin-top: 25px;
+    
+  }
+
+  .main-section {
+    float: left;
+    max-width: 768%;
+    padding: 10px;
+    margin: 10px 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    clear: both;
+    overflow: auto;
+  }
+
+  div .work {
+    float: left;
+    width: 45%;
+    /* margin-left: 120px; */
+  }
+
+  footer {
+    margin: -10px;
+    padding: 30px 0;
+    height: 60px;
+    width: 110%;
+    margin-top: 40px;
+    
+  }
+
+  ul {
+    padding-inline-start: 0px;
+  }
+
+}
 
 
 /*
