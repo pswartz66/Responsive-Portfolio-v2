@@ -285,13 +285,23 @@ input[type=submit] {
   .main-section {
     float: none;
     width: 100%;
-    max-width: 960px;
+    
     padding: 10px;
     margin: 10px 0 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
     clear: both;
-    overflow: none;
+    overflow: auto;
+  }
+
+  div .work {
+    width: 100%;
+    /* margin-left: 120px; */
+  }
+
+  .auth-image {
+    float: none;
+    width: 100%;
   }
 
   footer {
